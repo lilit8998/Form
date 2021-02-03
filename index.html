@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Input</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header></header>
+	<main>
+		<form action="" class="form">
+			<div class="namePassword">
+				<h1>My name</h1>
+				<div class="firstLastPassword">
+					<div class="firstName">
+						<label for="firstName">First name:</label>
+						<input type="text" placeholder="First name" id="firstName">
+					</div>
+					<div class="lastName">
+						<label for="lastName">Last name:</label>
+						<input type="text" placeholder="Last name" id="lastName">
+					</div>
+					<div class="pass">
+						<label for="passwordInput">Password:</label>
+						<input type="password" placeholder="Password" id="passwordInput">
+					</div>
+				</div>
+			</div>
+			
+			<div class="gender">
+				<h1>Gender</h1>
+				<div class="male">				
+					<input type="radio" id="radioFirst" name="my-radio">
+		   			<label for="radioFirst">Male</label>
+		  	 	</div>
+				<div class="female">
+				   	<input type="radio" id="radioSecond" name="my-radio">
+				   	<label for="radioSecond">Female</label>
+			   	</div>
+			   	<div class="custom">
+				    <input type="radio" id="radioThired" name="my-radio">
+				   	<label for="radioThired">Custom</label>
+			   </div>
+			</div>
+
+			<div class="textarea">
+				<h1>About me</h1>
+				 <textarea placeholder="About me" name="" id="textarea" cols="30" rows="10"></textarea>
+			</div>
+		</form>
+		<button class="button">Send</button>
+	</main>
+	<footer></footer>
+</body>
+</html>
